@@ -1,6 +1,6 @@
 import React from 'react'
 import { HERO_CONTENT } from '../constants'
-import hero from '../assets/profile3.png'
+import hero from '../source/profile3.png'
 import { delay, motion } from "framer-motion"
 
 
