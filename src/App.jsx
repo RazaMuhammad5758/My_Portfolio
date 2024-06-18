@@ -11,6 +11,7 @@ const App = () => {
   return (
 
     
+    
     <div className='overflow-x-hidden text-neutral-300 antialiased bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#000000_1px)] bg-[size:20px_20px]'>
       <div className='fixed top-0 -z-10 h-full w-full'></div>
       <div className="absolute inset-0 -z-10 h-full w-full items-center px-5 py-24 "></div>
