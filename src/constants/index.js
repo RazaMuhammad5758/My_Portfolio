@@ -42,19 +42,13 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript"],
     link: "https://barberx.vercel.app"
   },
+  
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
+    title: "Machine Learning Application",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform to detect plant diseases and predict crop yield using machine learning models.",
+    technologies: ["HTML", "CSS", "Reactjs" , "Vue.js", "Express", "mySQL"],
     
   },
 ];
