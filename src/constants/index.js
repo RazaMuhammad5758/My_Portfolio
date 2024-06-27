@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     role: "Front-end Developer",
     company: "CodeClause",
     description: `Designed and developed user interfaces for web applications using HTML, CSS, Javascript and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Javascript", "React.js", "Bootstrap", "TailwindCSS", "Material UI"],
+    technologies: ["HTML", "CSS", "Javascript", "React.js", "Bootstrap", "TailwindCSS", "MaterialUI"],
   },
   
 ];
@@ -49,6 +49,7 @@ export const PROJECTS = [
     description:
       "A platform to detect plant diseases and predict crop yield using machine learning models.",
     technologies: ["HTML", "CSS", "Reactjs" , "Vue.js", "Express", "mySQL"],
+    Link: "mymlapp.vercel.app"
     
   },
 ];
