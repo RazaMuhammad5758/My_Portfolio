@@ -49,7 +49,7 @@ export const PROJECTS = [
     description:
       "A platform to detect plant diseases and predict crop yield using machine learning models.",
     technologies: ["HTML", "CSS", "Reactjs" , "Vue.js", "Express", "mySQL"],
-    Link: "mymlapp.vercel.app"
+    Link: "https://mymlapp.vercel.app/"
     
   },
 ];
