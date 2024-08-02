@@ -26,7 +26,7 @@ const NavBar = () => {
             <div className='text-3xl cursor-pointer hover:text-blue-500'><a href="https://www.linkedin.com/in/raza-muhammad-113915219/"><FaLinkedin/></a></div> 
             <div className='text-3xl cursor-pointer hover:text-green-700'><a href="https://github.com/RazaMuhammad5758"><FaGithub/></a></div>
             <div className='text-3xl cursor-pointer hover:text-blue-400'><a href="https://www.facebook.com/profile.php?id=100042283539975&mibextid=ZbWKwL"><FaFacebook/></a></div>
-            <div className='text-3xl cursor-pointer hover:text-green-500'><a href="https://static.whatsapp.net/rsrc.php/v3/y9/l/0,cross/58P2v5ZIoPt.css?_nc_x=Ij3Wp8lg5Kz"><SiWhatsapp/></a></div>
+            <div className='text-3xl cursor-pointer hover:text-green-500'><a href="https://wa.me/+923422475758"><SiWhatsapp/></a></div>
         </motion.div>
     </nav>
   )

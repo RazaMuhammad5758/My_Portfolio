@@ -27,7 +27,7 @@ const Projects = () => {
                             <span className='bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 mr-2 mt-4 rounded ' key={index}>{tech}</span>
                         ))} 
                         <div className='mt-4'>
-                        <a href={project.link} target='_blank' rel="noreferrer" className='bg-neutral-900 px-2 py-1 text-sm font-medium text-green-500 mr-2 mt-4 rounded '>View Project</a></div>
+                        <a href={project.link} target='_blank' rel="noreferrer" className='bg-neutral-900 px-2 py-1 text-sm font-medium text-green-500 mr-2 mt-4 rounded cursor-pointer '>View Project</a></div>
 
                     </div>
                 </div>
