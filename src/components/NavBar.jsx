@@ -8,7 +8,7 @@ import {motion} from "framer-motion"
 
 const NavBar = () => {
   return (
-    <nav className=' mb-10 flex items-center justify-between '>
+    <nav className=' flex items-center justify-between '>
         <motion.div 
         whileInView={{ opacity:1, x:0 }}
         initial= {{ opacity:0, x:-100 }}
