@@ -11,15 +11,25 @@ export const ABOUT_TEXT = `I am a dedicated and versatile front-end developer wi
 
 export const EXPERIENCES = [
   {
-    year: "2024",
-    role: "Senior Front-end Developer",
+    year: "Nov-2024 to Present",
+    role: "Front-end Developer",
+    company: "petalnex Pvt. Ltd.",
+    description: `Currently interning at Patelnex Company, where I developed frontend
+websites using React.js. I am now expanding my skill set by learning the MERN
+stack, focusing on building full-stack web applications. Passionate about
+designing intuitive user experiences and continuously growing as a developer`,
+    technologies: ["Javascript", "React.js", "Bootstrap", "TailwindCSS", "Material UI", "MongoDB" ],
+  },
+  {
+    year: "Oct-2023 to Dec-2023",
+    role: "Front-end Developer(Internship)",
     company: "CodeAlpha",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, TailwindCSS and Bootstrap. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Bootstrap", "TailwindCSS", "Material UI" ],
   },
   {
-    year: "2024",
-    role: "Front-end Developer",
+    year: "Jan-2024",
+    role: "Front-end Developer(Internship)",
     company: "CodeClause",
     description: `Designed and developed user interfaces for web applications using HTML, CSS, Javascript and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "Javascript", "React.js", "Bootstrap", "TailwindCSS", "MaterialUI"],
