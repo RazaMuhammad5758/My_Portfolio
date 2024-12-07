@@ -2,6 +2,8 @@ import project1 from "../source/projects/project-1.jpg";
 import project2 from "../source/projects/project-2.jpg";
 import project3 from "../source/projects/project-3.jpg";
 import project4 from "../source/projects/project-4.jpg";
+import familyTree from "../source/projects/family.jpg";
+import resturant from "../source/projects/resturant.jpg";
 
 export const HERO_CONTENT = `I am a passionate front-end developer with a knack for crafting robust and scalable web applications. With 2 years of hands-on experience, I have honed my skills in front-end technologies like HTML, CSS, SCSS, TailwindCSS, Bootstrap, JavaScript and Reactjs, as well as back-end technologies like  MySQL and PostgreSQL. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -27,11 +29,19 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "Family Tree",
+    image: familyTree,
+    description:
+      "A visually engaging family tree website frontend designed to trace and display ancestral connections interactively",
+    technologies: ["HTML", "CSS", "React"],
+    link: "https://buttonandknob.com/"
+  },
+  {
     title: "Resturant Website",
-    image: project1,
+    image: resturant,
     description:
       "A fully functional restaurant website with features like menu listing, order, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React"],
     link: "https://lachine-chain.netlify.app"
   },
   {
@@ -48,7 +58,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform to detect plant diseases and predict crop yield using machine learning models.",
-    technologies: ["HTML", "CSS", "Reactjs" , "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "Reactjs"],
     link: "https://mymlapp.vercel.app"
     
   },

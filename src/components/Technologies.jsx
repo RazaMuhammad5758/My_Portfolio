@@ -2,7 +2,7 @@ import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
 import {RiTailwindCssFill } from 'react-icons/ri'
 import {FaBootstrap } from 'react-icons/fa'
-import {TbBrandMysql } from 'react-icons/tb'
+import {TbBrandMongodb, TbBrandMysql } from 'react-icons/tb'
 import {BiLogoPostgresql } from 'react-icons/bi'
 import {TbBrandJavascript } from 'react-icons/tb'
 import {animate, motion} from "framer-motion"
@@ -71,6 +71,13 @@ const Technologies = () => {
          animate= "animate"
         className='rounded-2xl border-4 border-neutral-400 p-4'>
             <TbBrandJavascript className='text-7xl text-yellow-400'/>
+        </motion.div>
+        <motion.div 
+         variants={iconVarients(2.5)}
+         initial= "initial"
+         animate= "animate"
+        className='rounded-2xl border-4 border-neutral-400 p-4'>
+            <TbBrandMongodb className='text-7xl text-green-600'/>
         </motion.div>
       </motion.div>
     </div>
