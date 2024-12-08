@@ -1,7 +1,8 @@
-import React from 'react'
-import { HERO_CONTENT } from '../constants'
-import hero from '../source/profile3.png'
-import { motion } from "framer-motion"
+import React, { useState } from 'react';
+import { HERO_CONTENT } from '../constants';
+import hero from '../source/profile pic 1.jpg';
+import hero2 from '../source/profile pic 2.jpg';
+import { motion } from "framer-motion";
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -13,9 +14,11 @@ const container = (delay) => ({
             duration: 0.5
         }
     }
-})
+});
 
 const Hero = () => {
+    const [isHovered, setIsHovered] = useState(false); // Track hover state
+
     return (
         <div className='border-b border-neutral-900 pb-4 lg:mb-35'>
             <div className='flex flex-wrap'>
@@ -47,7 +50,7 @@ const Hero = () => {
                             download='Resume.pdf'
                             className='mt-4 px-6 py-2 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium shadow-lg hover:shadow-xl transition-transform transform hover:scale-105'
                             whileHover={{ scale: 1.1 }}
-                            whileTap={{ scale: 0.9 }}>
+                            whileTap={{ scale: 0.5 }}>
                             Download Resume
                         </motion.a>
                     </div>
@@ -55,15 +58,22 @@ const Hero = () => {
                 <div className='w-full lg:w-1/2 lg:p-8'>
                     <div className='flex justify-center'>
                         <motion.img
-                            initial={{ opacity: 0, x: 100 }}
-                            animate={{ opacity: 1, x: 0 }}
-                            transition={{ delay: 1.2, duration: 1 }}
-                            className='w-3/4' src={hero} alt="hero_pic" />
+                            key={isHovered ? 'hero2' : 'hero1'} // Ensure unique key for each image
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            animate={{ opacity: 1, scale: 1 }}
+                            exit={{ opacity: 0, scale: 0.8 }}
+                            transition={{ duration: 0.5 }} // Smooth fade and scale transition
+                            className='w-3/4'
+                            src={isHovered ? hero2 : hero} // Dynamically switch image
+                            alt="hero_pic"
+                            onMouseEnter={() => setIsHovered(true)} // Trigger hover state
+                            onMouseLeave={() => setIsHovered(false)} // Reset hover state
+                        />
                     </div>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Hero
+export default Hero;

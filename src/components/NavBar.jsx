@@ -10,13 +10,18 @@ const NavBar = () => {
   return (
     <nav className=' flex items-center justify-between '>
         <motion.div 
-        whileInView={{ opacity:1, x:0 }}
-        initial= {{ opacity:0, x:-100 }}
-        transition={{ duration: 1, delay: 0.2,}}
-        className='flex flex-shrink-0 items-center'>
-            <img className='h-10 ml-5' src={logo} alt="logo" />
+              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, x: -100 }}
+              transition={{ duration: 1, delay: 0.2 }}
+              className='flex flex-shrink-0 items-center'>
+              <img 
+                  className='h-10 ml-5 cursor-pointer' 
+                  src={logo} 
+                  alt="logo" 
+                  onClick={() => window.location.reload()} // Add this onClick handler
+              />
+          </motion.div>
 
-        </motion.div>
 
         <motion.div
         whileInView={{ opacity:1, x:0 }}
