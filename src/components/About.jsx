@@ -11,7 +11,7 @@ const About = () => {
       whileInView={{ opacity:1, y:0 }}
       initial= {{ opacity:0, y:-100 }}
       transition={{ duration: 1, delay: 0.2,}}
-      className='my-20 text-center text-4xl'> About <span className='text-neutral-500'> Me</span></motion.h1>
+      className='my-20 text-center text-4xl relative z-20 text-neutral-500'> About <span className='text-neutral-500'> Me</span></motion.h1>
 
       <motion.div
       whileInView={{ opacity:1, x:0 }}
@@ -29,7 +29,7 @@ const About = () => {
         transition={{ duration: 1, delay: 0.2,}}
         className='w-full lg:w-1/2'>
                 <div className='flex justify-center lg:justify-start'>
-                    <p className='my-2 max-w-xl py-6 font-light'>{ABOUT_TEXT}</p>
+                    <p className='my-2 max-w-xl py-6 font-light text-white'>{ABOUT_TEXT}</p>
                     
                 </div>
 

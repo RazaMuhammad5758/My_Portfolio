@@ -28,7 +28,7 @@ const Hero = () => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className='pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl'>
+                            className='pb-16 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl text-white'>
                             Raza Muhammad
                         </motion.h1>
                         <motion.span
@@ -42,7 +42,7 @@ const Hero = () => {
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
-                            className='my-2 max-w-xl py-6 font-light tracker-tighter'>
+                            className='my-2 max-w-xl py-6 font-light tracker-tighter text-white'>
                             {HERO_CONTENT}
                         </motion.p>
                         <motion.a
