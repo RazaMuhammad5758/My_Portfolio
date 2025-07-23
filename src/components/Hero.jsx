@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HERO_CONTENT } from '../constants';
-import hero from '../source/profile pic 1.jpg';
+import hero from '../source/profile_pic_12.png';
+// import hero from '../source/profile pic 1.jpg';
 import hero2 from '../source/profile pic 2.jpg';
 import { motion } from "framer-motion";
 
@@ -64,7 +65,7 @@ const Hero = () => {
                             exit={{ opacity: 0, scale: 0.8 }}
                             transition={{ duration: 0.5 }} // Smooth fade and scale transition
                             className='w-3/4'
-                            src={isHovered ? hero2 : hero} // Dynamically switch image
+                            src={hero} // Dynamically switch image
                             alt="hero_pic"
                             onMouseEnter={() => setIsHovered(true)} // Trigger hover state
                             onMouseLeave={() => setIsHovered(false)} // Reset hover state

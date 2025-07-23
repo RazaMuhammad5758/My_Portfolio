@@ -52,7 +52,7 @@ const AnimatedBackground = () => {
       draw() {
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(255, 255, 255, ${this.opacity})`
+        ctx.fillStyle = `rgba(251, 245, 253, 1)`  // blue with opacity
         ctx.fill()
       }
     }
@@ -70,7 +70,7 @@ const AnimatedBackground = () => {
         for (let y = 0; y < canvas.height; y += spacing) {
           ctx.beginPath()
           ctx.arc(x, y, dotSize, 0, Math.PI * 2)
-          ctx.fillStyle = "rgba(255, 255, 255, 0.2)"
+          ctx.fillStyle = "rgba(245, 239, 246, 0.27)"  // light blue grid dots
           ctx.fill()
         }
       }
@@ -113,6 +113,5 @@ const App = () => {
     </div>
   )
 }
-
 
 export default App
