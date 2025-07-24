@@ -98,8 +98,8 @@ const App = () => {
   return (
     <div className="relative overflow-x-hidden scroll-smooth">
       <AnimatedBackground />
-      <div className="relative z-10 container mx-auto px-8">
-        <NavBar />
+      <div className="relative z-10 container mr-20 px-8">
+        <div className='mr-30'>< NavBar /></div>
         <section id="hero"><Hero /></section>
         <section id="about"><About /></section>
         <section id="technologies"><Technologies /></section>
