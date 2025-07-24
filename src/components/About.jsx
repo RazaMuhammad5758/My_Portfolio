@@ -29,7 +29,7 @@ const About = () => {
         transition={{ duration: 1, delay: 0.2,}}
         className='w-full lg:w-1/2'>
                 <div className='flex justify-center lg:justify-start'>
-                    <p className='my-2 max-w-xl py-6 font-light text-white'>{ABOUT_TEXT}</p>
+                    <p className='my-2 max-w-xl py-6 font-light text-white text-justify'>{ABOUT_TEXT}</p>
                     
                 </div>
 
