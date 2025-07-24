@@ -52,7 +52,7 @@ const AnimatedBackground = () => {
       draw() {
         ctx.beginPath()
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(251, 245, 253, 1)`  // blue with opacity
+        ctx.fillStyle = `rgba(140, 136, 142, 0.57)`
         ctx.fill()
       }
     }
@@ -70,7 +70,7 @@ const AnimatedBackground = () => {
         for (let y = 0; y < canvas.height; y += spacing) {
           ctx.beginPath()
           ctx.arc(x, y, dotSize, 0, Math.PI * 2)
-          ctx.fillStyle = "rgba(245, 239, 246, 0.27)"  // light blue grid dots
+          ctx.fillStyle = "rgba(245, 239, 246, 0.27)"
           ctx.fill()
         }
       }
@@ -96,19 +96,16 @@ const AnimatedBackground = () => {
 
 const App = () => {
   return (
-    <div className="relative overflow-x-hidden">
-      {/* Animated Background should stay at back */}
+    <div className="relative overflow-x-hidden scroll-smooth">
       <AnimatedBackground />
-
-      {/* Content goes above canvas */}
       <div className="relative z-10 container mx-auto px-8">
         <NavBar />
-        <Hero />
-        <About />
-        <Technologies />
-        <Experience />
-        <Projects />
-        <Contact />
+        <section id="hero"><Hero /></section>
+        <section id="about"><About /></section>
+        <section id="technologies"><Technologies /></section>
+        <section id="experience"><Experience /></section>
+        <section id="projects"><Projects /></section>
+        <section id="contact"><Contact /></section>
       </div>
     </div>
   )
