@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <nav className="fixed top-0 w-full z-50 backdrop-blur bg-[#0f0f0fb3] shadow-md transition-all duration-300">
-      <div className="flex flex-wrap md:flex-nowrap items-center justify-between py-3">
+      <div className="flex flex-wrap md:flex-nowrap items-center justify-between py-3 px-4 md:px-8">
         {/* Logo */}
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
@@ -51,7 +51,7 @@ const NavBar = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 100 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="hidden md:flex gap-4 px-8 text-white"
+          className="hidden md:flex gap-4 text-white"
         >
           <a className="text-2xl hover:text-blue-500" href="https://www.linkedin.com/in/raza-muhammad-113915219/" target="_blank"><FaLinkedin /></a>
           <a className="text-2xl hover:text-green-700" href="https://github.com/RazaMuhammad5758" target="_blank"><FaGithub /></a>
