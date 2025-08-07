@@ -11,19 +11,16 @@ export const ABOUT_TEXT = `I am a dedicated and versatile MERN stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "Nov-2024 to Present",
-    role: "Front-end Developer",
+    year: "Dec-2024 to June-2025",
+    role: "Mern-Stack Developer(Internship)",
     company: "petalnex Pvt. Ltd.",
-    description: `Currently interning at Patelnex Company, where I developed frontend
-websites using React.js. I am now expanding my skill set by learning the MERN
-stack, focusing on building full-stack web applications. Passionate about
-designing intuitive user experiences and continuously growing as a developer`,
-    technologies: ["Javascript", "React.js", "Bootstrap", "TailwindCSS", "Material UI", "MongoDB" ],
+    description: `During my internship at Petalnex ltd, I received hands-on training in the MERN stack (MongoDB, Express.js, React.js, and Node.js). I actively contributed to real-world projects, including building a job portal platform with features like user authentication, role-based access, and job listings.`,
+    technologies: ["Javascript", "React.js", "Expressjs", "MongoDB", "Bootstrap" ],
   },
   {
-    year: "Oct-2023 to Dec-2023",
+    year: "Aug-2024 to Nov-2024",
     role: "Front-end Developer(Internship)",
-    company: "CodeAlpha",
+    company: "CocoPixel",
     description: `Led a team in developing and maintaining web applications using JavaScript, React.js, TailwindCSS and Bootstrap. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "React.js", "Bootstrap", "TailwindCSS", "Material UI" ],
   },

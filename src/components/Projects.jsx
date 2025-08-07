@@ -21,7 +21,7 @@ const Projects = () => {
                     <img src={project.image} alt={project.title} width={150} height={150} className='mb-6 rounded'/>
                     </div>
                     <div className='w-full max-w-xl lg:w-3/4'>
-                        <h6 className='mb-2 font-semibold'>{project.title}</h6>
+                        <h6 className='mb-2 font-semibold text-white'>{project.title}</h6>
                         <p className='mb-4 text-neutral-400'>{project.description}</p>
                         {project.technologies.map((tech, index) => (
                             <span className='bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-500 mr-2 mt-4 rounded ' key={index}>{tech}</span>

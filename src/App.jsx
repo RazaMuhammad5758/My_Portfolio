@@ -6,6 +6,7 @@ import Technologies from './components/Technologies'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Contact from './components/Contact'
+import { Helmet } from "react-helmet";
 
 const AnimatedBackground = () => {
   const canvasRef = useRef(null)
@@ -94,10 +95,18 @@ const AnimatedBackground = () => {
   return <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full -z-10" style={{ background: "#000000" }} />
 }
 
+
 const App = () => {
   return (
+    
     <div className="relative overflow-x-hidden scroll-smooth">
+
       <AnimatedBackground />
+      <Helmet>
+        <title>Raza Muhammad - Developer Portfolio</title>
+        <meta name="description" content="Official website of Raza Muhammad" />
+        <meta name="keywords" content="Raza Muhammad, Developer, Portfolio" />
+      </Helmet>
       <div className="relative z-10 container mx-auto px-8">
         <NavBar />
         <section id="hero"><Hero /></section>
