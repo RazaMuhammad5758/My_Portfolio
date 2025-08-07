@@ -48,7 +48,7 @@ export const PROJECTS = [
     image: resturant,
     description:
       "A fully functional restaurant website with features like menu listing, order, and user authentication.",
-    technologies: ["HTML", "CSS", "React"],
+    technologies: ["HTML", "CSS", "JS"],
     link: "https://lachine-chain.netlify.app"
   },
   {
