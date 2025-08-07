@@ -36,12 +36,12 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Family Tree",
+    title: "E-Ustad",
     image: familyTree,
     description:
-      "A visually engaging family tree website frontend designed to trace and display ancestral connections interactively",
-    technologies: ["HTML", "CSS", "React"],
-    link: "https://buttonandknob.com/"
+      "E-Ustad is a platform that connects skilled workers with clients, making it easy to find and hire trusted local professionals.",
+    technologies: ["MongoDB", "EJS", "ExpressJs", "NodeJs"],
+    link: "https://e-ustad-production.up.railway.app/"
   },
   {
     title: "Resturant Website",
